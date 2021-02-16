@@ -22,10 +22,11 @@
   },
   "main": "./lib/botio.js",
   "dependencies": {
-    "commander": "0.5.2",
-    "express": "2.5.8",
-    "request": "2.9.153",
-    "shelljs": "0.0.5pre4"
+    "@octokit/rest": "^18.1.1",
+    "commander": "7.1.0",
+    "express": "4.17.1",
+    "node-fetch": "^2.6.1",
+    "shelljs": "0.8.4"
   },
   "devDependencies": {},
   "optionalDependencies": {},
